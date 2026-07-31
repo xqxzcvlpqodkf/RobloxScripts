@@ -1,0 +1,37 @@
+SOURCE-AVAILABLE END USER LICENSE AGREEMENT (EULA)
+
+Copyright (c) 2026 Aramis. All Rights Reserved.
+
+Preamble and Grant of License:
+By downloading, accessing, viewing, or executing this software and its associated 
+documentation files (collectively, the "Software"), you are granted a limited, non-exclusive, 
+non-transferable, and revocable license to run and execute the Software solely for personal, 
+non-commercial, or evaluation purposes. 
+
+RESERVATIONS AND RESTRICTIONS:
+All rights not expressly granted to you under this Agreement are strictly reserved by the Copyright Holder. 
+
+1. NO MODIFICATION OR REVERSE ENGINEERING:
+   You may not modify, alter, adapt, translate, decompile, disassemble, reverse engineer, 
+   or create derivative works based upon the Software or any portion thereof.
+
+2. NO REDISTRIBUTION OR COMMERCIAL USE:
+   You may not republish, host, mirror, frame, sublicense, rent, lease, sell, monetise, 
+   or otherwise redistribute the Software—in source code or compiled format—on any website, 
+   platform, script hub, or public/private repository.
+
+3. NO PUBLIC FORKING OR MIRRORING:
+   Creating public forks, mirrors, or web-accessible copies of this codebase on GitHub, 
+   GitLab, Bitbucket, or any other source-control platform is strictly prohibited.
+
+4. AUTOMATED EXECUTION & LOADER ACCESS:
+   Fetching, loading, or executing this Software via external HTTP requests, custom loaders, 
+   or raw content URLs (e.g., raw.githubusercontent.com) does not grant ownership, redistribution 
+   rights, or authorization to bypass any embedded authentication or access controls.
+
+DISCLAIMER OF WARRANTY:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING 
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, 
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
