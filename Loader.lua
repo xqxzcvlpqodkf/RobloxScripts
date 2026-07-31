@@ -26,7 +26,7 @@ local function ExecuteScript(path)
     local source = Fetch(REPOSITORY_URL .. path)
     if not source then return end
 
-    local executable, compilation_error = loadstring(source)
+    local executable, _ = loadstring(source)
 
     if executable then
         executable()
