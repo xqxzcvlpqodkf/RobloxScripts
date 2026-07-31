@@ -1,6 +1,6 @@
 # RobloxScripts
 
-A collection of utility scripts, gameplay tweaks, and mechanics designed for custom Roblox execution environments. 
+A collection of utility scripts designed for Roblox exploits.
 
 All scripts hosted in this repository are **public to use**. However, they are built with modern execution standards in mind and rely on standard environment functions. If you run into issues, ensure your environment isn't heavily stripped down or missing core HTTP/hooking functions.
 
