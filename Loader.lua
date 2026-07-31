@@ -9,7 +9,6 @@ local PLACE_ID = tostring(game.PlaceId)
 
 local function Fetch(url)
     local success, result = pcall(game.HttpGet, game, url)
-
     return success and result or nil
 end
 
@@ -18,7 +17,6 @@ local function LoadManifest()
     if not raw_json then return nil end
 
     local success, decoded = pcall(HTTP_SERVICE.JSONDecode, HTTP_SERVICE, raw_json)
-
     return (success and type(decoded) == "table") and decoded or nil
 end
 
@@ -26,12 +24,23 @@ local function ExecuteScript(path)
     local source = Fetch(REPOSITORY_URL .. path)
     if not source then return end
 
-    local executable, _ = loadstring(source)
-
+    local executable = loadstring(source)
     if executable then
         executable()
     end
 end
+
+local genv = getgenv()
+
+genv.LOCAL_NOTIFICATION = function(title, text, duration)
+    return game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = title,
+        Text = text,
+        Duration = duration
+    })
+end
+
+genv.AUTH_TABLE = {""}
 
 local manifest = LoadManifest()
 
