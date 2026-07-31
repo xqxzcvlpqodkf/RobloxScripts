@@ -11,7 +11,7 @@ All scripts hosted in this repository are **public to use**. However, they are b
 Instead of hunting down specific scripts for specific games, use the main loader. It automatically checks your current `game.PlaceId` and executes the matching script if one is available.
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xqxzcvlpqodkf/RobloxScripts/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xqxzcvlpqodkf/RobloxScripts/refs/heads/main/Loader.lua"))()
 ```
 
 > **How it works:** The loader pulls your Place ID on execution, queries the script manifest, and initializes the environment setup for that specific game. If the current game isn't supported yet, it will throw a notification on your screen.
