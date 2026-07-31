@@ -2,7 +2,7 @@
 
 if not getgenv().AUTH_TABLE then
   getgenv().LOCAL_NOTIFICATION("Error", "F9 for more details", 9999)
-  return warn("[Script Error]: error in loader initialization)
+  return warn("[Script Error]: error in loader initialization")
 end
 
 if not gethwid then
